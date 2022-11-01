@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+
+body,
+html {
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-style: normal;  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: #E6E6E6;
+    height: 188px;
+
+}
+.banner img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.data{
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+
+.data-personal{
+  height: 140px;
+}
+
+.data-academica{
+  height: 120px;
+}
+
+.data-laboral{
+  height: 300px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #C4C4C4;
+  margin-bottom: 120px;
+}
+
+.title h1 {
+  letter-spacing: 1px;
+  font-size: 35p;
+  font-weight: 700;
+  color: #005677;
+}
+
+.subtitle {
+  background: #C4C4C4;
+  padding-left: 10px;
+}
+
+.subtitle h2{
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #005677;
+}
+
+.text {
+  padding: 20px;
+  padding-left: 40px;
+  
+}
+
+.text ul li{
+  list-style: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+
+.cursiva {
+  font-style: italic;
+  list-style: circle;
+}
+
+.text span{
+  
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+
+
+footer { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  background: #005677;
+  height: 38px;
+    font-size: 20px;
+  font-weight: 700;
+}
+
+footer img{
+  padding-left: 20px;
+  object-fit: cover;
+}
+
+
+
+
